@@ -1,0 +1,74 @@
+#container {
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    position: relative;
+}
+#main {
+    background-image: url(./second.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border: solid gray 5px;
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-left: 150px;
+    position: absolute;
+}
+#preimg {
+    background-image: url(./first.jpg);
+    background-size: cover;
+    width: 120px;
+    height: 200px;
+    border-radius: 0px 20px 20px 0px;
+    margin-top: 80px;
+    margin-left: 0px;
+    position: absolute;
+}
+#nxtimg {
+    background-image: url(./third.jpg);
+    background-size: cover;
+    width: 120px;
+    height: 200px;
+    border-radius: 20px 0px 0px 20px;
+    margin-top: 80px;
+    margin-left: 380px;
+    position: absolute;
+}
+button {
+    background-color:white;
+    border: solid gray 3px;
+    border-radius: 50%;
+    color: white;
+    width: 50px;
+    height: 50px;
+    display: inline;
+    position: absolute;
+}
+i {
+    font-size: 18px;
+    color: black;
+}
+#back2 {
+    margin-left: 135px;
+    margin-top: 380px;
+    position: absolute;
+}
+#back {
+    margin-left: 195px;
+    margin-top: 380px;
+    position: absolute;
+}
+#next {
+    margin-left: 255px;
+    margin-top: 380px;
+    position: absolute;
+}
+#next2 {
+    margin-left: 315px;
+    margin-top: 380px;
+    position: absolute;
+}
