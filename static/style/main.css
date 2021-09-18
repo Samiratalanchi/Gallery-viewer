@@ -8,7 +8,7 @@
     position: relative;
 }
 #main {
-    background-image: url(./second.jpg);
+    background-image: url(../images/second.jpg);
     background-size: cover;
     width: 200px;
     height: 200px;
@@ -19,7 +19,7 @@
     position: absolute;
 }
 #preimg {
-    background-image: url(./first.jpg);
+    background-image: url(../images/first.jpg);
     background-size: cover;
     width: 120px;
     height: 200px;
@@ -29,7 +29,7 @@
     position: absolute;
 }
 #nxtimg {
-    background-image: url(./third.jpg);
+    background-image: url(../images/third.jpg);
     background-size: cover;
     width: 120px;
     height: 200px;
